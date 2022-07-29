@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/gnorzea/jest-another-RPG#readme",
   "devDependencies": {
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.0.2",
+    "node": "^18.7.0"
   }
 }
